@@ -1,0 +1,88 @@
+body {
+  background-color: #2f2831;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #636363;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #044f9948;
+  padding: 10px;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+header h1 {
+  color: white;
+  margin: 5px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #d90000;
+}
+
+img {
+  width: 90px;
+  margin: 10px;
+}
+
+.caixa {
+  background-color: white;
+  border: 3px solid black;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+ul {
+  list-style: square;
+  display: inline-block;
+  text-align: left;
+}
+
+button {
+  background-color: #d90000;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 3px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3333;
+}
+
+#aviso {
+  font-size: 12px;
+  color: #555555;
+}
+
+footer {
+  background-color: #044f9948;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 3px solid black;
+}
+
+footer a {
+  color: yellow;
+}
